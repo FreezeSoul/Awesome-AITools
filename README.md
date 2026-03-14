@@ -1,6 +1,10 @@
 <div align="center">
     <h1>Awesome AI Tools</h1>
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+    <br>
+    <a href="https://github.com/ikaijua/Awesome-AITools/stargazers"><img src="https://img.shields.io/github/stars/ikaijua/Awesome-AITools?style=social" alt="Stars"></a>
+    <a href="https://github.com/ikaijua/Awesome-AITools/network/members"><img src="https://img.shields.io/github/forks/ikaijua/Awesome-AITools?style=social" alt="Forks"></a>
+    <a href="https://github.com/ikaijua/Awesome-AITools/commits"><img src="https://img.shields.io/github/last-commit/ikaijua/Awesome-AITools" alt="Last Commit"></a>
 </div>
 
 English | [中文](README-CN.md)
@@ -18,11 +22,13 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
   - [LLM Leaderboard](#llm-leaderboard)
   - [GPT LLMs Applications](#gpt-llms-applications)
   - [AI Coding](#ai-coding)
+  - [Skills](#skills)
   - [AI Image Creation](#ai-image-creation)
   - [Video Creation](#video-creation)
   - [AI Cloud Platform](#ai-cloud-platform)
   - [LLM Prompts](#llm-prompts)
   - [LLM training platform](#llm-training-platform)
+  - [News & Information](#news-information)
   - [Writing](#writing)
   - [Translation](#translation)
   - [Speech Recognition](#speech-recognition)
@@ -39,17 +45,18 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 ### ChatGPT and other AI chatbot
 | Name | Description | Links | Fees | 
 | ---- | ----------------------------- | --- | --- |
-| Gemini| Google's AI chatbot, including Gemini-3.1 pro. [ai.google.dev](https://ai.google.dev/)|[URL](https://gemini.google.com/) <br> |Free/Paid|
-| ChatGPT | OpenAI's AI chatbot, including GPT-5.2  | [URL](https://chat.openai.com) | Free/Paid | 
-| Claude| Anthropic's AI chatbot, including Claude Opus 4.6|[URL](https://claude.ai/)| Free/Paid|
-| DeepSeek | DeepSeek's AI chatbot. [API](https://platform.deepseek.com/api_keys)|[URL](https://chat.deepseek.com/)|Free/Paid|
-| Grok | xAI's AI chatbot, including grok-4.1-thinking. [x.com/grok](https://x.com/i/grok) |[URL](https://grok.com/)|Free/Paid|
-| qwen | Alibaba's AI chatbot. Includes Qwen3, Qwen3-Code and other Qwen LLMs|[URL](https://chat.qwen.ai/)|Free|
-| Dola | Bytedance's AI chatbot|[URL](https://www.dola.com/)|Free|
+| Gemini| Google's AI chatbot, including Gemini-3.1 pro. Excels in multimodality, high-fidelity image generation/analysis, and deep integration with the Google ecosystem. Best for: Image processing and web information integration, Deep Research feature performs exceptionally well, seamlessly integrates with Google Drive. [ai.google.dev](https://ai.google.dev/)|[URL](https://gemini.google.com/) <br> |Free/Paid|
+| ChatGPT | OpenAI's AI chatbot, including GPT-5.4. Best for general purpose, coding, and creative writing. Great for most users. Memory function is currently the best - it remembers what you've said and picks up right where you left off in the next conversation, making it feel most like talking to a real person. | [URL](https://chatgpt.com) | Free/Paid | 
+| Claude| Anthropic's AI chatbot, including Claude Opus 4.6. Best for coding, long context, safety, and enterprise use. Cowork functionality transforms AI into a true "agent" rather than just a chatbot - can pull financial data, build Excel forecasting models, etc., with high efficiency. |[URL](https://claude.ai/)| Free/Paid|
+| DeepSeek | DeepSeek's AI chatbot. Cost-effective option. [API](https://platform.deepseek.com/api_keys)|[URL](https://chat.deepseek.com/)|Free/Paid|
+| Grok | xAI's AI chatbot, including grok-4.1-thinking. Best for real-time internet access and Elon Musk's AI vision. Real-time data and news is its moat - can directly access posts on X as information sources, a differentiation that's hard to replicate. [x.com/grok](https://x.com/i/grok) |[URL](https://grok.com/)|Free/Paid|
+| qwen | Alibaba's AI chatbot. Includes Qwen3, Qwen3-Code and other Qwen LLMs.|[URL](https://chat.qwen.ai/)|Free|
+| Dola | Bytedance's AI chatbot. Intuitive interface and good general capabilities.|[URL](https://www.dola.com/)|Free|
 
 ### AI Agent
-| Name | Description | Links | Fees |  
+| Name | Description | Links | Fees |
 | ---- | ----------------------------- | --- | --- |
+|OpenClaw|Open-source self-hosted AI agent that runs locally and autonomously executes tasks. Connects to WhatsApp, Telegram, Slack, Discord and other messaging platforms, with browser control, system access, and persistent memory. Developed by Peter Steinberger, gained over 180K GitHub stars, one of the fastest-growing open-source projects|[Github](https://github.com/openclaw/openclaw) ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)|Free|
 |Manus|Manus is the action engine that goes beyond answers to execute tasks, automate workflows, and extend your human reach|[URL](https://manus.im/)|Free Trial/Paid|
 |AnyGen|AnyGen is the AI assistant that truly "gets work done" for you. From writing and analysis to planning and reporting, it transforms your ideas into ready-to-use professional deliverables in minutes. [The AI Assistant Built for Work](https://www.anygen.io/task/LkA2pg7EXaVJkrgETSol5DelgEd)|[URL](https://www.anygen.io/)|Free Trial/Paid|
 |Gemini CLI|An open-source AI agent that brings the power of Gemini directly into your terminal.|[Github](https://github.com/google-gemini/gemini-cli/)![GitHub Repo stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=social)|Free|
@@ -58,6 +65,9 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 |microsoft/autogen|AutoGen is an open-source programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks. |[Github](https://github.com/microsoft/autogen) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/autogen?style=social)|Free|
 |potpie-ai/potpie|Open Source AI Agents for your codebase in minutes. Use pre-built agents for Q&A, Testing, Debugging and System Design or create your own purpose-built agents. |[URL](https://potpie.ai) , [Github](https://github.com/potpie-ai/potpie) ![GitHub Repo stars](https://img.shields.io/github/stars/potpie-ai/potpie?style=social)|Free Trial|
 |MastraAI|Mastra is an opinionated TypeScript framework that helps you build AI applications and features quickly. It gives you the set of primitives you need: workflows, agents, RAG, integrations and evals|[Github](https://github.com/mastra-ai/mastra) ![GitHub Repo stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=social)|Free|
+|Taskade|AI-native workspace platform. Build apps from prompts, deploy autonomous AI agents with memory and knowledge bases, automate workflows with 100+ integrations, and collaborate in real-time. Supports MCP (Model Context Protocol). Cross-platform: Web, Desktop, Mobile, and Browser Extensions.|[URL](https://taskade.com) , [Github](https://github.com/taskade/taskade) ![GitHub Repo stars](https://img.shields.io/github/stars/taskade/taskade?style=social)|Free/Paid|
+|msitarzewski/agency-agents|Open-source AI agency toolkit with 70+ specialized agent personas across engineering, design, marketing, sales, and more. Features ready-to-use agent personalities, workflow templates, and multi-tool support for Claude Code, Cursor, Aider and other AI dev tools.|[Github](https://github.com/msitarzewski/agency-agents) ![GitHub Repo stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)|Free|
+
 
 
 ### Open Source LLMs
@@ -81,7 +91,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 |Price Per Token|Compare LLM API pricing across 200+ models from OpenAI, Anthropic, Google, and more. Includes token counters, cost calculators, and benchmark comparisons.|[URL](https://pricepertoken.com/)|Free|
 
 ### GPT LLMs Applications
-| Name | Description | Links | Fees | 
+| Name | Description | Links | Fees |
 -|-|-|-
 | Google AI Studio|Google AI Studio is a free, web-based developer tool that enables you to quickly develop prompts and then get an API key to use in your app development. [Available regions](https://ai.google.dev/gemini-api/docs/available-regions#available_regions)|[URL](https://aistudio.google.com/)|Free|
 | NotebookLM |AI Research Assistant developed by Google. Upload PDFs, websites, YouTube videos, audio files, Google Docs, or Google Slides, and NotebookLM will summarize them and make interesting connections between topics. Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click. |[URL](https://notebooklm.google.com/)|Free|
@@ -95,6 +105,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 |sashabaranov/go-openai|This library provides unofficial Go clients for OpenAI API. support:  ChatGPT, GPT-3, GPT-4, DALL·E 2|[Github](https://github.com/sashabaranov/go-openai)![GitHub Repo stars](https://img.shields.io/github/stars/sashabaranov/go-openai?style=social)|Free|
 |langchain|LangChain is a framework for developing applications powered by language models.|[Github](https://github.com/langchain-ai/langchain) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social)|Free|
 |Helicone AI|Helicone is the open-source LLM observability platform for logging, monitoring, and debugging AI applications.|[Github](https://github.com/Helicone/helicone) ![GitHub Repo stars](https://img.shields.io/github/stars/Helicone/helicone?style=social)|Free|
+|WFGY ProblemMap|Open-source RAG failure-mode checklist and diagnostics toolkit for LLM pipelines (data, embeddings, retrievers, tools, evaluation). MIT-licensed and used by several labs and infra projects as a practical RAG debugging guide.|[Github](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md) ![GitHub Repo stars](https://img.shields.io/github/stars/onestardao/WFGY?style=social)|Free|
 |ChatGPT-Next-Web|One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.|[Github](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) ![GitHub Repo stars](https://img.shields.io/github/stars/ChatGPTNextWeb/ChatGPT-Next-Web?style=social)|Free|
 | screenshot-to-code | This simple app converts a screenshot to HTML/Tailwind CSS. It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website! | [GitHub](https://github.com/abi/screenshot-to-code) ![GitHub Repo stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social)| Free, need access to GPT-4 Vision|
 | Chatbox | Desktop application that uses ChatGPT API (OpenAI API) to store all chat messages and prompts locally, thus reducing the risk of data loss. A bit more stable to use than the web version| [GitHub](https://github.com/Bin-Huang/chatbox) ![GitHub Repo stars](https://img.shields.io/github/stars/Bin-Huang/chatbox?style=social)| Free, requires [apikey with OpenAPI](https://platform.openai.com/account/api-keys)|
@@ -115,17 +126,30 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Morphik.ai | Open source AI-driven search engine for private documents | [URL](https://morphik.ai) [Github](https://github.com/morphik-org/morphik-core) ![GitHub Repo stars](https://img.shields.io/github/stars/morphik-org/morphik-core?style=social)| Free |
 
 ### AI Coding
-| Name | Description | Links | Fees |  
-| ---- | ----------------------------- | --- | --- | 
+| Name | Description | Links | Fees |
+| ---- | ----------------------------- | --- | --- |
+| Claude Code |	Anthropic's AI coding assistant with strong long‑context understanding, complex code refactoring and agent capabilities.|[Github](https://github.com/anthropics/claude-code)</br> ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social)|Paid/Free Trial|
+| musistudio/claude-code-router | A powerful tool to route Claude Code requests to different models and customize any request. Supports multi-provider routing, request/response transformation, dynamic model switching, CLI model management, and GitHub Actions integration. |[Github](https://github.com/musistudio/claude-code-router) ![GitHub Repo stars](https://img.shields.io/github/stars/musistudio/claude-code-router?style=social)|Free|
 | Cursor | A collaborative code editor using GPT | [URL](https://www.cursor.so) | Paid/Free Trial |
 | GitHub Copilot | A code writing assistant developed by GitHub and OpenAI | [URL](https://github.com/features/copilot) | Paid|
-| Claude Code |	Anthropic's AI coding assistant with strong long‑context understanding, complex code refactoring and agent capabilities.|[Github](https://github.com/anthropics/claude-code)</br> ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code?style=social)|Paid/Free Trial|
+| dbForge AI Assistant | AI-powered tool that generates, optimizes, and troubleshoots SQL code; indispensable for developers, DBAs, and analysts | [URL](https://www.devart.com/dbforge/ai-assistant/) | Paid/Free Trial|
 | Antigravity | Google AI coding assistant based on Windsurf technology, deeply integrated with Gemini and Google Cloud	|[URL](https://antigravity.google/)	|Free for Individual Use/Paid|
+| Happy Coder | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | [URL](https://happy.engineering) [GitHub](https://github.com/slopus/happy) ![GitHub Repo stars](https://img.shields.io/github/stars/slopus/happy?style=social) | Free |
 | Trae | ByteDance's AI coding IDE. Trae is your helpful coding partner. It offers features like AI Q&A, code auto-completion, and agent-based AI programming capabilities. | [URL](https://www.trae.ai/) | Free|
 | Amazon CodeWhisperer | A code writing assistant developed by Amazon| [URL](https://aws.amazon.com/cn/codewhisperer)| Free for Individual Use|
 | scalene |Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals|[Github](https://github.com/plasma-umass/scalene) </br>![GitHub Repo stars](https://img.shields.io/github/stars/plasma-umass/scalene?style=social)|Free|
 | Kodus | Open Source Code Review Agent | [GitHub](https://github.com/kodustech/kodus-ai/) <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kodustech/kodus-ai?style=social"> | Free/Paid|
 | Kagan | AI-powered Kanban TUI for autonomous development workflows. Integrates with Claude Code and OpenCode for ticket-driven AI coding with git worktree isolation and MCP server support. | [GitHub](https://github.com/aorumbayev/kagan) ![GitHub Repo stars](https://img.shields.io/github/stars/aorumbayev/kagan?style=social) | Free |
+| Steel Browser | Open-source browser sandbox and automation infrastructure for AI agents and apps with session-backed workflows, screenshots, PDFs, proxies, and anti-bot tooling. | [Github](https://github.com/steel-dev/steel-browser) ![GitHub Repo stars](https://img.shields.io/github/stars/steel-dev/steel-browser?style=social) | Free |
+| Termux | Android terminal emulator and Linux environment app that allows you to run coding tools, AI models and development environments directly on your mobile device, with built-in SSH client support for logging into remote hosts. | [Github](https://github.com/termux/termux-app) ![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-app?style=social) | Free |
+
+### Skills
+| Name | Description | Links | Fees |
+| ---- | ----------------------------- | --- | --- |
+| anthropics/skills | Official skills repository for Claude Code skills, providing reusable tool integrations and extensions for Claude Code AI assistant | [Github](https://github.com/anthropics/skills) ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/skills?style=social) | Free |
+| openai/skills | Official skills repository for OpenAI GPT models, providing reusable tools and extensions for OpenAI's AI assistants | [Github](https://github.com/openai/skills) ![GitHub Repo stars](https://img.shields.io/github/stars/openai/skills?style=social) | Free |
+| skills.sh | Community-driven skills registry and marketplace for AI assistants, providing a curated collection of reusable skills for various AI platforms including Claude Code, OpenAI GPT, and other LLM assistants, with download usage statistics and trending popularity rankings for all skills | [Website](https://skills.sh/) | Free/Paid |
+| JimLiu/baoyu-skills | Community skills repository for Claude Code, providing practical Chinese-language and region-specific skills including Weibo posting functionality | [Github](https://github.com/JimLiu/baoyu-skills) ![GitHub Repo stars](https://img.shields.io/github/stars/JimLiu/baoyu-skills?style=social) | Free |
 
 ### AI Image Creation
 | Name | Description | Links | Fees | 
@@ -150,6 +174,7 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 
 | Name | Description | Links | Fees | 
 | ---- | ----------------------------- | --- | --- |
+| Dreamina|AI image and video creation tool by ByteDance/CapCut. Powered by Seedance 2.0 model. Supports text-to-image, text-to-video, image-to-video with 2K ultra-clear output|[URL](https://dreamina.capcut.com/)|Free/Paid|
 | Wan2.6 |AI Video Creation Tool by Alibaba  | [URL](https://create.wan.video/) | Paid/Free trial |
 | Sora | Sora is an AI model published by OpenAI that can create realistic and imaginative scenes from text instructions. | [URL](https://openai.com/sora) | Paid |
 | KLING AI|AI Video Creation Tool by kuaishou. Support text to video, image to video, start-end frame and motion control |[URL](https://klingai.com/)|Free/Paid|
@@ -179,6 +204,11 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Name | Description | Links | Fees |
 | ---- | ----------------------------- | --- | --- |
 | lm-sys/FastChat | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | [Github](https://github.com/lm-sys/FastChat) ![GitHub Repo stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social)| Free |
+
+### News Information
+| Name | Description | Links | Fees |
+| ---- | ----------------------------- | --- | --- |
+| World Monitor | AI-powered real-time global intelligence dashboard with 435+ curated feeds, geopolitical monitoring, infrastructure tracking, AI summaries, 21 languages support, local AI runtime and cross-platform native desktop apps | [Github](https://github.com/koala73/worldmonitor) ![GitHub Repo stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social), [Official Site](https://worldmonitor.app) | Free |
 
 ### Writing
 | Name | Description | Links | Fees | 
@@ -256,11 +286,11 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | Name | Description | Links | Fees | 
 | ---- | ----------------------------- | --- | --- |
 | ChatGPT for YouTube | Chrome plugin, quickly summarize Youtube video content, need to log in chatgpt account or apikey | [URL](https://chatgpt4youtube.com/)| Free |
-| Chat Youtube | Give a Youtube link, it will give a summary, and you can ask it questions about the content of the video |[URL](https://chatyoutube.com) | Free |
 
 ### Academic research
 | Name | Description | Links | Fees | 
 | ---- | ----------------------------- | --- | --- |
+| AMiner | AI-powered academic research and tech intelligence platform providing paper search, patent search, literature tracking, and scholar profiling | [URL](https://www.aminer.cn/)| Free |
 | alphaxiv | An open academic discussion community based on the arXiv platform that allows users to comment line-by-line, ask questions, and interact in real-time by replacing the paper's linking domain (arxiv.org for alphaxiv.org) directly on the paper's page. And provides AI features such as Ask AI and AI-generated article blogs | [URL](https://www.alphaxiv.org/)| Free |
 
 
@@ -282,4 +312,3 @@ This repo collects awesome AI tools. Welcome everyone to recommend more awesome 
 | AI Detect Lab | Professional AI image and deepfake detector specifically optimized for Midjourney v7 and Flux. | [URL](https://www.aidetectlab.com/) | Free |
 
 [![Star History](https://api.star-history.com/svg?repos=ikaijua/Awesome-AITools&type=Date)](https://star-history.com/#ikaijua/Awesome-AITools&Date)
-
